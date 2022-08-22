@@ -15,6 +15,7 @@
 		F05BC0B528AA2FB5007A9DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05BC0B328AA2FB5007A9DBE /* LaunchScreen.storyboard */; };
 		F05BC0BD28AB8928007A9DBE /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05BC0BC28AB8928007A9DBE /* VisionObjectRecognitionViewController.swift */; };
 		F05BC0C328ACF198007A9DBE /* ObjectDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F05BC0C228ACF198007A9DBE /* ObjectDetector.mlmodel */; };
+		F0CA896128B390D90073AAA0 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = F0CA896028B390D90073AAA0 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F05BC0B628AA2FB5007A9DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F05BC0BC28AB8928007A9DBE /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
 		F05BC0C228ACF198007A9DBE /* ObjectDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ObjectDetector.mlmodel; sourceTree = "<group>"; };
+		F0CA896028B390D90073AAA0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		F05BC09C28AA2FB4007A9DBE = {
 			isa = PBXGroup;
 			children = (
+				F0CA896028B390D90073AAA0 /* Readme.md */,
 				F05BC0A728AA2FB4007A9DBE /* ObjectFinder */,
 				F05BC0A628AA2FB4007A9DBE /* Products */,
 			);
@@ -133,6 +136,7 @@
 			files = (
 				F05BC0B528AA2FB5007A9DBE /* LaunchScreen.storyboard in Resources */,
 				F05BC0B228AA2FB5007A9DBE /* Assets.xcassets in Resources */,
+				F0CA896128B390D90073AAA0 /* Readme.md in Resources */,
 				F05BC0B028AA2FB4007A9DBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
