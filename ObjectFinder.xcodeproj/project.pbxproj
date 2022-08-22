@@ -13,6 +13,8 @@
 		F05BC0B028AA2FB4007A9DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05BC0AE28AA2FB4007A9DBE /* Main.storyboard */; };
 		F05BC0B228AA2FB5007A9DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05BC0B128AA2FB5007A9DBE /* Assets.xcassets */; };
 		F05BC0B528AA2FB5007A9DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05BC0B328AA2FB5007A9DBE /* LaunchScreen.storyboard */; };
+		F05BC0BD28AB8928007A9DBE /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05BC0BC28AB8928007A9DBE /* VisionObjectRecognitionViewController.swift */; };
+		F05BC0C328ACF198007A9DBE /* ObjectDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F05BC0C228ACF198007A9DBE /* ObjectDetector.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F05BC0B128AA2FB5007A9DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F05BC0B428AA2FB5007A9DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F05BC0B628AA2FB5007A9DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05BC0BC28AB8928007A9DBE /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
+		F05BC0C228ACF198007A9DBE /* ObjectDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ObjectDetector.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				F05BC0A828AA2FB4007A9DBE /* AppDelegate.swift */,
 				F05BC0AA28AA2FB4007A9DBE /* SceneDelegate.swift */,
 				F05BC0AC28AA2FB4007A9DBE /* ViewController.swift */,
+				F05BC0BC28AB8928007A9DBE /* VisionObjectRecognitionViewController.swift */,
 				F05BC0AE28AA2FB4007A9DBE /* Main.storyboard */,
+				F05BC0C228ACF198007A9DBE /* ObjectDetector.mlmodel */,
 				F05BC0B128AA2FB5007A9DBE /* Assets.xcassets */,
 				F05BC0B328AA2FB5007A9DBE /* LaunchScreen.storyboard */,
 				F05BC0B628AA2FB5007A9DBE /* Info.plist */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F05BC0AD28AA2FB4007A9DBE /* ViewController.swift in Sources */,
+				F05BC0BD28AB8928007A9DBE /* VisionObjectRecognitionViewController.swift in Sources */,
 				F05BC0A928AA2FB4007A9DBE /* AppDelegate.swift in Sources */,
+				F05BC0C328ACF198007A9DBE /* ObjectDetector.mlmodel in Sources */,
 				F05BC0AB28AA2FB4007A9DBE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +312,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

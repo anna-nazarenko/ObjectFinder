@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  ObjectFinder
 //
-//  Created by Dream Store on 15.08.2022.
+//  Created by Anna Nazarenko on 15.08.2022.
 //
 
 import UIKit
